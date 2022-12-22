@@ -37,4 +37,9 @@ class LinkedList:
         else:
             Current = self.First
             while(Current.Next.Value != Value):
+                if Current.Next == None:
+                    break
+                else:
+                    Current = Current.Next
+
 
