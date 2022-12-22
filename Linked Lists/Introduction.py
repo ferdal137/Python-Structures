@@ -36,5 +36,5 @@ class LinkedList:
             return False
         else:
             Current = self.First
-            while(Current.Next.Value!=Value):
-                
+            while(Current.Next.Value != Value):
+
