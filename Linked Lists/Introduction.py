@@ -41,5 +41,16 @@ class LinkedList:
                     return False
                 else:
                     Current = Current.Next
+            DeletedNode = Current.Next
+            Current.Next = DeleteNode.Next
+        
+        self.Size -= 1
+
+        return DeletedNode
+
+    def _len_(self):
+        return self.Size
+    
+    def
 
 
