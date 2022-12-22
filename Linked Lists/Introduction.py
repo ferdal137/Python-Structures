@@ -30,4 +30,11 @@ class LinkedList:
         self.Size += 1
 
         return MyNode
-
+    
+    def Remove(self,Value):      #Remove a Node given its value
+        if self.Size == 0:
+            return False
+        else:
+            Current = self.First
+            while(Current.Next.Value!=Value):
+                
