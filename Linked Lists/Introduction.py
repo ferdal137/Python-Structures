@@ -3,17 +3,17 @@
 #Create the node class
 
 class Node:
-    def _init_(sekf,Value):
+    def __init__(self,Value):
         self.Value = Value
         self.Next = None
     
-    def _str_(self):
+    def __str__(self):
         return str(self.Value)
 
 #Create the Linked List
 
 class LinkedList:
-    def _init_(self)
+    def __init__(self):
         self.First = None
         self.Size = 0 
  
@@ -51,7 +51,7 @@ class LinkedList:
     def _len_(self):
         return self.Size
     
-    """def _str_(self):
+    def _str_(self):
         String = "["
         Current = self.First
         while Current != None:
@@ -60,7 +60,7 @@ class LinkedList:
             Current = Current.Next
         String = "]"
 
-        return String"""
+        return String
 
 
 MyList = LinkedList()
