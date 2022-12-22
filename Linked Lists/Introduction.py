@@ -51,7 +51,7 @@ class LinkedList:
     def _len_(self):
         return self.Size
     
-    def _str_(self):
+    """def _str_(self):
         String = "["
         Current = self.First
         while Current != None:
@@ -60,6 +60,14 @@ class LinkedList:
             Current = Current.Next
         String = "]"
 
-        return String
+        return String"""
 
 
+MyList = LinkedList()
+
+MyList.Append(1)
+MyList.Append(2)
+MyList.Append(3)
+MyList.Append(4)
+
+print(MyList)
