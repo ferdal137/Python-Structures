@@ -57,5 +57,9 @@ class LinkedList:
         while Current != None:
             String += str(Current)
             String += str(",")
+            Current = Current.Next
+        String = "]"
+
+        return String
 
 
