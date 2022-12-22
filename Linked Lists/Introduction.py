@@ -3,4 +3,9 @@
 #Create the node class
 
 class Node:
-    self _init_
+    def _init_(sekf,Value):
+        self.Value = Value
+        self.next = None
+    
+    def _str_(self):
+        return str(self.Value)
