@@ -9,3 +9,8 @@ class Node:
     
     def _str_(self):
         return str(self.Value)
+
+class LinkedList:
+    def _init_(self)
+        self.First = None
+        self.Size = 0 
