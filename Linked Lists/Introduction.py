@@ -51,6 +51,11 @@ class LinkedList:
     def _len_(self):
         return self.Size
     
-    def
+    def _str_(self):
+        String = "["
+        Current = self.First
+        while Current != None:
+            String += str(Current)
+            String += str(",")
 
 
