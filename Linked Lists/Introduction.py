@@ -5,7 +5,7 @@
 class Node:
     def _init_(sekf,Value):
         self.Value = Value
-        self.next = None
+        self.Next = None
     
     def _str_(self):
         return str(self.Value)
@@ -23,7 +23,11 @@ class LinkedList:
             self.First = MyNode
         else:
             Current = self.First
-            while(Current.next!=None):
-                Current = Current.next
-                
+            while(Current.Next!=None):
+                Current = Current.Next
+            Current.Next = MyNode
+        
+        self.Size += 1
+
+        return MyNode
 
