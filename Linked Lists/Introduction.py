@@ -14,3 +14,11 @@ class LinkedList:
     def _init_(self)
         self.First = None
         self.Size = 0 
+
+    def Append(self, Value):
+        MyNode = Node(Value)
+        if self.Size == 0:
+            self.First = MyNode
+        else:
+            Current = self.First
+            
