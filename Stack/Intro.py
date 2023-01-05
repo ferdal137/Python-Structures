@@ -20,4 +20,8 @@ class Stack:
     def __str__(self):
         return str(self.Stack)
 
-    def __len__() 
+    def __len__(self):
+        return len(self.Stack)
+
+
+
