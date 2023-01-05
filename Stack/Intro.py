@@ -32,5 +32,9 @@ MyStack.Add(3)
 
 print(MyStack)
 
+MyStack.Remove()
+
+print(MyStack)
+
 
 
