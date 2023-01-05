@@ -13,4 +13,6 @@ class Stack:
         return self.Top
     
     def Remove(self):
-        self.Stack.pop
+        self.Stack.pop()
+        self.Top = Stack[-1]
+        return self.Top
