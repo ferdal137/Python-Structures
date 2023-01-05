@@ -23,7 +23,7 @@ class Queue:
         return self.Initial 
 
     def __str__(self):
-        return str(self.Stack)
+        return str(self.Queue)
 
     def __len__(self):
-        return len(self.Stack)
+        return len(self.Queue)
