@@ -10,3 +10,4 @@ class Stack:
     def Add(self, Element):
         self.Top = Element
         self.Stack.append(Element)
+        return self.Top
