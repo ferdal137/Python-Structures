@@ -24,4 +24,6 @@ class Stack:
         return len(self.Stack)
 
 
+MyStack = Stack()
 
+MyStack.Add(1)
