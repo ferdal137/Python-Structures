@@ -14,5 +14,10 @@ class Stack:
     
     def Remove(self):
         self.Stack.pop()
-        self.Top = Stack[-1]
+        self.Top = self.Stack[-1]
         return self.Top
+    
+    def __str__(self):
+        return str(self.Stack)
+
+    def __len__() 
