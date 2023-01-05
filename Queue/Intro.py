@@ -16,3 +16,8 @@ class Queue:
         self.Queue.append(Element)
         self.Final = Element
         return self.Final
+
+    def Remove(self):
+        self.Queue.pop(0)
+        self.Initial = self.Queue[0]
+        
