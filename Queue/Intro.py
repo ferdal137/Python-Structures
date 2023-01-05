@@ -21,3 +21,9 @@ class Queue:
         self.Queue.pop(0)
         self.Initial = self.Queue[0]
         return self.Initial 
+
+    def __str__(self):
+        return str(self.Stack)
+
+    def __len__(self):
+        return len(self.Stack)
