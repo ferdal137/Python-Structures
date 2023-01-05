@@ -20,4 +20,4 @@ class Queue:
     def Remove(self):
         self.Queue.pop(0)
         self.Initial = self.Queue[0]
-        
+        return self.Initial 
