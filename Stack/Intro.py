@@ -11,3 +11,6 @@ class Stack:
         self.Top = Element
         self.Stack.append(Element)
         return self.Top
+    
+    def Remove(self):
+        self.Stack.pop
