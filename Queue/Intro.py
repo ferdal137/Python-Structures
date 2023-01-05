@@ -27,3 +27,16 @@ class Queue:
 
     def __len__(self):
         return len(self.Queue)
+
+
+MyQueue = Queue()
+
+MyQueue.Add(1)
+MyQueue.Add(2)
+MyQueue.Add(3)
+
+print(MyQueue)
+
+MyQueue.Remove()
+
+print(MyQueue)
