@@ -14,4 +14,5 @@ class Queue:
     
     def Add(self, Element):
         self.Queue.append(Element)
-        self.Final
+        self.Final = Element
+        return self.Final
