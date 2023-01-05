@@ -30,3 +30,7 @@ MyStack.Add(1)
 MyStack.Add(2)
 MyStack.Add(3)
 
+print(MyStack)
+
+
+
